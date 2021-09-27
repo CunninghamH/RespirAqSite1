@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss:assets/css",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d respiraqsiteA"
   },
   "keywords": [
     "Bootstrap",
