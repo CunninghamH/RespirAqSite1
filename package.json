@@ -18,7 +18,7 @@
   "author": "Helen Cunningham",
   "license": "ISC",
   "devDependencies": {
-    "@popperjs/ncore": "^2.10.1",
+    "@popperjs/core": "^2.10.1",
     "postcss": "^8.3.8",
     "sass": "^1.35.2"
   },
