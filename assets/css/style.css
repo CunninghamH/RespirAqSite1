@@ -10868,6 +10868,16 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(233, 236, 239, 0.95), rgba(255, 255, 255, 0.95));
 }
 
+.sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+.sup {
+  vertical-align: super;
+  font: smaller;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(233, 236, 239, 0.95), rgba(255, 255, 255, 0.95));
 }
@@ -10968,9 +10978,6 @@ h4 {
 .companies__logo-box img {
   height: 100%;
 }
-.companies__logo-box img:hover {
-  filter: grayscale(120);
-}
 
 .services {
   position: relative;
@@ -11018,10 +11025,19 @@ h4 {
   border-radius: 0.625rem;
   height: auto;
   text-align: center;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 600;
+  color: #6c757d;
 }
 .testimonials__card i {
   font-size: 1.5rem;
-  color: rgba(233, 236, 239, 0.7);
+  color: rgba(173, 181, 189, 0.7);
+}
+.testimonials__card h3 {
+  padding-top: 0.8rem;
+  text-transform: capitalize;
 }
 .testimonials__card .ratings i {
   color: rgba(233, 236, 239, 0.7);
@@ -11038,11 +11054,11 @@ h4 {
   border: 0.325rem solid rgba(233, 236, 239, 0.7);
 }
 .testimonials__name {
-  padding-top: 3rem;
+  padding-top: 1rem;
   margin-bottom: 1rem;
   text-align: center;
-  font-weight: 500;
-  color: #fff;
+  font-weight: 600;
+  color: #6c757d;
 }
 .testimonials__name h3 {
   padding-top: 0.8rem;
@@ -11217,6 +11233,41 @@ h4 {
   }
 }
 .updates__content__pic {
+  max-width: 100%;
+}
+
+.summarystatement {
+  position: relative;
+  padding: 1rem 0;
+  color: #6c757d;
+}
+.summarystatement__content {
+  padding: 1rem;
+  margin-top: 0;
+}
+.summarystatement__content P {
+  font-size: 0.8rem;
+}
+@media (min-width: 992px) {
+  .summarystatement__content P {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .summarystatement__content {
+    margin-top: 5rem;
+  }
+}
+.summarystatement__content .icon {
+  font-size: 1.5rem;
+  color: #e9ecef;
+}
+@media (min-width: 992px) {
+  .summarystatement__content .icon {
+    margin-top: 2.5rem;
+  }
+}
+.summarystatement__content__pic {
   max-width: 100%;
 }
 
