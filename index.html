@@ -205,13 +205,13 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#" >Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#product">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#howitworks2">Technology</a>
+                <a class="nav-link" href="#howitworks2" >Technology</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
@@ -234,6 +234,9 @@
           </div>
         </div>
       </nav>   
+
+
+
 <!---/////// START THE INTRO SECTION/////--->
 <section id="home" class="intro-section">
   <div class="container">
@@ -642,6 +645,15 @@ const lightbox = GLightbox({
 <i class="fas fa-chevron-up"></i>
 </a>
 <!-- <script src="/assets/js/bootstrap.bundle.js"></script> -->
+<!-- <script>
+  const navLinks = document.querySelectorAll('.nav-item')
+  const menuToggle = document.getElementById('navbarNav')
+  const bsCollapse = new bootstrap.Collapse(menuToggle)
+  navLinks.forEach((l) => {
+      l.addEventListener('click', () => { bsCollapse.toggle() })
+  })
+  </script> -->
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
