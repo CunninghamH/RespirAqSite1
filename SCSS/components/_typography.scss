@@ -77,11 +77,12 @@ background-color: $primary;
     background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 
 }
-      .sub {
-           vertical-align: sub;
-           font-size: smaller;
-       }
-       .sup {
-           vertical-align: super;
-           font: smaller;
-       }
+// subscript and superscript
+.sub {
+        vertical-align: sub;
+        font-size: smaller;
+}
+ .sup {
+    vertical-align: super;
+    font: smaller;
+ }
