@@ -238,11 +238,6 @@
 
 
             </ul>
-            <!-- <button type="button" class="rounded-pill btn-rounded">+64 210677242
-              <span>
-                <i class="fas fa-phone-alt"></i>
-              </span>
-            </button> -->
           </div>
         </div>
       </nav>   
@@ -668,14 +663,27 @@ const lightbox = GLightbox({
   navLinks.forEach((l) => {
       l.addEventListener('click', () => { bsCollapse.toggle() })
   })
-  window.onscroll = function() {scrollFunction()};
+//   window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    bsCollapse.hide(); 
+// function scrollFunction() {
+//   if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 80) {
+//     bsCollapse.hide(); 
+//   } 
+// } 
+
+// window.addEventListener("load", () => { bsCollapse.toggle() })
+
+// window.onload = (event) => {
+//   bsCollapse.hide(); 
+// };
+window.addEventListener("scroll", myFunction);
+
+function myFunction() {
+
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    bsCollapse.hide()
   } 
-} 
-
+}
 </script>
 </body>
 </html>
