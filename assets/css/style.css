@@ -10978,6 +10978,9 @@ h4 {
 .companies__logo-box img {
   height: 100%;
 }
+.companies__logo-box img2 {
+  height: 100%;
+}
 
 .services {
   position: relative;
@@ -11273,7 +11276,6 @@ h4 {
 
 .footer {
   padding-top: 1rem;
-  padding-bottom: 1rem;
   background-color: #151414;
 }
 
@@ -11281,7 +11283,6 @@ h4 {
   position: relative;
 }
 .contact-box__icon {
-  width: 2rem;
   stroke: #e9ecef;
   padding-top: 0.5rem;
 }
@@ -11320,7 +11321,7 @@ h4 {
 }
 .footer-sm a i {
   font-size: 1 rem;
-  margin-left: 1rem;
+  margin-left: 1 rem;
 }
 @media (min-width: 576px) {
   .footer-sm a i {
