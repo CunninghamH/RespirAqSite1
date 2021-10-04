@@ -10998,7 +10998,7 @@ h4 {
 }
 @media (min-width: 992px) {
   .services__content {
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
 }
 .services__content .icon {
@@ -11273,6 +11273,7 @@ h4 {
 
 .footer {
   padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #151414;
 }
 

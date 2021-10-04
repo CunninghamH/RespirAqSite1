@@ -20,7 +20,7 @@
 
         }   
         @include media-breakpoint-up(lg){
-            margin-top: 5rem;
+            margin-top: 1rem;
 
         }
         .icon{
@@ -36,7 +36,9 @@
     
 
     &__pic{
-        max-width: 100%;
+
+            max-width: 100%;
+
 
     }
 }
