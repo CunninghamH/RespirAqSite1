@@ -11283,6 +11283,7 @@ h4 {
   position: relative;
 }
 .contact-box__icon {
+  width: 2rem;
   stroke: #e9ecef;
   padding-top: 0.5rem;
 }

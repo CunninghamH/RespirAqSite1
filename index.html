@@ -220,7 +220,7 @@
                 <a class="nav-link active" aria-current="page" href="#" >Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#product" data-bs-target=".navbar-collapse.show">Product</a>
+                <a class="nav-link" href="#product" >Product</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#howitworks2" >Technology</a>
@@ -668,7 +668,13 @@ const lightbox = GLightbox({
   navLinks.forEach((l) => {
       l.addEventListener('click', () => { bsCollapse.toggle() })
   })
+  window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    bsCollapse.hide(); 
+  } 
+} 
 
 </script>
 </body>
